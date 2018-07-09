@@ -4,6 +4,10 @@ import (
 	"fmt"
 )
 
+/* type Hello struct {
+	var aa int =0
+} */
+
 func main() {
 	var a int64
 	a = int64(300)
