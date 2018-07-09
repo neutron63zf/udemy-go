@@ -5,6 +5,5 @@ import (
 )
 
 func main() {
-	hello := fmt.Sprint("Hello World!")
-	fmt.Println(hello)
+	fmt.Printf("\a")
 }
