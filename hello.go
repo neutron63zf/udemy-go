@@ -2,9 +2,9 @@ package main
 
 import (
 	"fmt"
-	"os"
 )
 
 func main() {
-	fmt.Fprintln(os.Stdout, "Hello World!")
+	hello := fmt.Sprint("Hello World!")
+	fmt.Println(hello)
 }
