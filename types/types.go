@@ -15,13 +15,17 @@ func main() {
 	var f float32
 	f = float32(0.007)
 
-	var c complex64
+	var c = 1 + 2i
+	d, e := "hello", 22
 
 	fmt.Println("簡単なテストプログラム")
 	fmt.Printf("%d", a)
-	fmt.Println("　")
+	fmt.Println("")
 	fmt.Printf("%f", f)
-	fmt.Println("　")
+	fmt.Println("")
 	fmt.Printf("%f", c)
+	fmt.Println("")
+	fmt.Printf("%v %v", d, e)
+	fmt.Print("\n")
 
 }
